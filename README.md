@@ -3,7 +3,7 @@
 ![AdonisJS](https://img.shields.io/badge/adonisjs-%23220052.svg?style=for-the-badge&logo=adonisjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-# Goall
+# SDC API
 
 API de um sistema de caronas desenvolvida em NodeJS, usando o framework AdonisJS, para a disciplina de Engenharia de Software II 2024.1 da Universidade Federal Fluminense.
 
