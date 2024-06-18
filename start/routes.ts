@@ -19,6 +19,7 @@ router.get('/', async () => {
 router.group(() => {
   router.post('login', [AuthController, 'login']).as('auth.login')
   router.post('logout', [AuthController, 'logout']).as('auth.logout')
+  router.post('register', [AuthController, 'register']).as('auth.register')
 }).prefix('auth')
 
 router.resource('users', UsersController)

@@ -22,4 +22,10 @@ export default class AuthController {
             revoked: true
         }
     }
+
+    public async register({ request }: HttpContext) {
+        const payload = request.only(['email', 'full_name', 'password'])
+        const user = await User.create(payload)
+        return user;
+    }
 }
